@@ -10,3 +10,6 @@
   background-color: white;
   border-radius: 33px;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
