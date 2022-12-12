@@ -2,13 +2,24 @@
   margin-top: 0px;
 }
 
-#chat-icon a {
+#chat-icon {
   position: fixed;
   bottom: 86px;
   right: 26px;
-  z-index: 9;
+  z-index: 10000;
   background-color: white;
-  border-radius: 33px;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+#chat-icon:hover {
+  transform: rotate(15deg);
+  transition: all ease 0.8s;
+}
+#chat-icon.active {
+  visibility: visible;
+  opacity: 1;
 }
 body::-webkit-scrollbar {
   display: none;
