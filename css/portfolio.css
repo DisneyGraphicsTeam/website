@@ -17,6 +17,7 @@
   background-color: antiquewhite;
   margin: 12px;
   border-radius: 12px;
+  box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
 }
 .table-container table tbody tr:hover {
   background-color: aquamarine;
