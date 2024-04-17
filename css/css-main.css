@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon,
+
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon,
 .portfolio-section .single-portfolio .content .link-btn span,
 .footer .widget-wrapper .footer-widget .socials li a {
   display: flex;
@@ -235,9 +232,11 @@ p {
   0% {
     transform: translateY(30px);
   }
+
   50% {
     transform: translateY(-30px);
   }
+
   100% {
     transform: translateY(30px);
   }
@@ -348,24 +347,31 @@ p {
   12.5% {
     transform: rotate(135deg);
   }
+
   25% {
     transform: rotate(270deg);
   }
+
   37.5% {
     transform: rotate(405deg);
   }
+
   50% {
     transform: rotate(540deg);
   }
+
   62.5% {
     transform: rotate(675deg);
   }
+
   75% {
     transform: rotate(810deg);
   }
+
   87.5% {
     transform: rotate(945deg);
   }
+
   to {
     transform: rotate(1080deg);
   }
@@ -375,9 +381,11 @@ p {
   0% {
     transform: rotate(130deg);
   }
+
   50% {
     transform: rotate(-5deg);
   }
+
   to {
     transform: rotate(130deg);
   }
@@ -387,9 +395,11 @@ p {
   0% {
     transform: rotate(-130deg);
   }
+
   50% {
     transform: rotate(5deg);
   }
+
   to {
     transform: rotate(-130deg);
   }
@@ -421,7 +431,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+(max-width: 767px) {
   .sticky .navbar {
     padding: 15px 0;
   }
@@ -444,7 +454,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+(max-width: 767px) {
   .navbar {
     padding: 17px 0;
   }
@@ -492,7 +502,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+(max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -511,7 +521,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+(max-width: 767px) {
   .navbar-nav .nav-item {
     margin-left: 20px;
   }
@@ -527,7 +537,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+(max-width: 767px) {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 0px;
@@ -949,11 +959,7 @@ p {
   margin-bottom: 35px;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon {
   width: 80px;
   height: 80px;
   border-radius: 10px;
@@ -962,76 +968,40 @@ p {
   font-size: 42px;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon.color-1 {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-1 {
   background: #ffefff;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon.color-2 {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-2 {
   background: #e1f2fb;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon.color-3 {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-3 {
   background: #ffeaea;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .icon.color-4 {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-4 {
   background: #ece8ff;
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .content
-  h1 {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content h1 {
   font-size: 45px;
   margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-up-section
-    .counter-up-content
-    .counter-up-wrapper
-    .single-counter
-    .content
-    h1 {
+  .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content h1 {
     font-size: 38px;
   }
 }
 
-.counter-up-section
-  .counter-up-content
-  .counter-up-wrapper
-  .single-counter
-  .content
-  span {
+.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content span {
   font-size: 25px;
   font-weight: 500;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-up-section
-    .counter-up-content
-    .counter-up-wrapper
-    .single-counter
-    .content
-    span {
+  .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content span {
     font-size: 18px;
   }
 }
@@ -1292,11 +1262,7 @@ p {
   margin: 15px;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  .price-header {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing .price-header {
   position: relative;
   z-index: 1;
   width: 150px;
@@ -1308,12 +1274,7 @@ p {
   margin-bottom: 25px;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  .price-header
-  .shape {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing .price-header .shape {
   position: absolute;
   top: 0;
   left: 0;
@@ -1323,48 +1284,25 @@ p {
   z-index: -1;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  .price-header
-  .package-name {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing .price-header .package-name {
   margin-bottom: 20px;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  .price-header
-  .price {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing .price-header .price {
   font-size: 30px;
   color: #4e6ef1;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  ul.content {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing ul.content {
   margin-bottom: 30px;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  ul.content
-  li {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing ul.content li {
   font-size: 16px;
   line-height: 35px;
 }
 
-.pricing-section
-  .pricing-active-wrapper
-  .pricing-active
-  .single-pricing
-  .pricing-btn {
+.pricing-section .pricing-active-wrapper .pricing-active .single-pricing .pricing-btn {
   margin-right: 1px;
 }
 
@@ -1402,7 +1340,7 @@ p {
 
 /* ================ testimonial css =============== */
 .testimonial-section {
-  padding-top: 150px;
+  padding-top: 40px;
 }
 
 .testimonial-section .testimonial-active-wrapper {
@@ -1431,10 +1369,7 @@ p {
   margin: 8px;
 }
 
-.testimonial-section
-  .testimonial-active-wrapper
-  .tns-nav
-  button.tns-nav-active {
+.testimonial-section .testimonial-active-wrapper .tns-nav button.tns-nav-active {
   background: #4e6ef1;
 }
 
@@ -1451,11 +1386,7 @@ p {
   margin-bottom: 40px;
 }
 
-.testimonial-section
-  .testimonial-active-wrapper
-  .single-testimonial
-  .image
-  img {
+.testimonial-section .testimonial-active-wrapper .single-testimonial .image img {
   width: 100%;
 }
 
@@ -1464,11 +1395,7 @@ p {
   text-align: center;
 }
 
-.testimonial-section
-  .testimonial-active-wrapper
-  .single-testimonial
-  .content
-  .quote {
+.testimonial-section .testimonial-active-wrapper .single-testimonial .content .quote {
   position: absolute;
   z-index: -1;
   left: 0;
@@ -1481,11 +1408,7 @@ p {
   transform: rotate(180deg);
 }
 
-.testimonial-section
-  .testimonial-active-wrapper
-  .single-testimonial
-  .content
-  p {
+.testimonial-section .testimonial-active-wrapper .single-testimonial .content p {
   font-size: 15px;
   font-style: italic;
   line-height: 21px;
@@ -1998,7 +1921,7 @@ p {
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .pt-105 {
